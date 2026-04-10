@@ -1,0 +1,55 @@
+.app-navbar {
+  z-index: 100;
+}
+
+.app-navbar .navbar-brand {
+  white-space: nowrap;
+}
+
+.app-navbar .nav-link {
+  font-weight: 500;
+}
+
+.app-brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+  text-decoration: none;
+}
+
+.app-brand-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  background: linear-gradient(90deg, #0f6abf 0%, #2e7d32 55%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.app-brand-tagline {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #667085;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  margin-top: 1px;
+}
+
+.app-navbar .dropdown-menu {
+  min-width: 180px;
+}
+
+@media (max-width: 991.98px) {
+  .app-navbar .navbar-collapse {
+    padding-top: 0.75rem;
+  }
+
+  .app-brand-title {
+    font-size: 1.2rem;
+  }
+
+  .app-brand-tagline {
+    font-size: 0.64rem;
+  }
+}
